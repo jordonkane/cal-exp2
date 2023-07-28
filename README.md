@@ -7,7 +7,7 @@
 ### Frameworks
 - Uses JavaScript; HTML for the front-end.
 ## What I learned:
-- The most important takeaway from this project is that I learned how to apply solution to a real-world problem. Dieting has always been mystified in media and is confusing to most people. This project serves as a very simple first step for someone looking to make a big lifestyle change, regardless of their age.
+- The most important takeaway from this project is that I learned how to apply solution to a real-world problem. The mystification of dieting due to marketing tactics has left a majority of western society confused on where to start. This project serves as a very simple first step for someone looking to make a big lifestyle change, regardless of their age.
 - On the technical side, this project has helped me sharpen my skills with managing forms in HTML and handling user input in JavaScript.
 - I also learned more about design and how to make the interface look clean and usable with CSS.
 ## How to Use
