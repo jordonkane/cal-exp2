@@ -30,30 +30,36 @@ function calculate() {
 
         document.getElementById('heading').innerHTML = "Your caloric expenditure is: "
         document.getElementById('calorie-output').innerHTML = newCalories + " cals/day"
+        goal(newCalories)
 
     } else if (activity == "light") {
 
         document.getElementById('heading').innerHTML = "Your caloric expenditure is: "
         document.getElementById('calorie-output').innerHTML = (calories * 1.375).toFixed(0) + " cals/day"
-    
+        goal(newCalories)
+
     } else if (activity == "moderate") {
 
         document.getElementById('heading').innerHTML = "Your caloric expenditure is: "
         document.getElementById('calorie-output').innerHTML = (calories * 1.55).toFixed(0) + " cals/day"
-    
+        goal(newCalories)
+
     } else if (activity == "heavy") {
 
         document.getElementById('heading').innerHTML = "Your caloric expenditure is: "
         document.getElementById('calorie-output').innerHTML = (calories * 1.725).toFixed(0) + " cals/day"
+        goal(newCalories)
 
     } else {
 
         document.getElementById('heading').innerHTML = "Your caloric expenditure is: "
         document.getElementById('calorie-output').innerHTML = (calories * 1.9).toFixed(0) + " cals/day"
-    
+        goal(newCalories)
+        
     }
 }
 
-function {
+function goal(cals) {
+
     document.getElementById('message').innerHTML = "Eat " + (newCalories - (-500)) + " cals/day to gain weight <br> Eat " + (newCalories - 500) + "cals/day to lose weight <br>"
 }
