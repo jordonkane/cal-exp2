@@ -52,41 +52,36 @@ function calculate() {
 
         // Calculate daily caloric expenditure for sedentary activity level.
 
-        newCalories = (calories * 1.2).toFixed(0)
-        goal(newCalories)
+        goal((calories * 1.2).toFixed(0))
 
     } else if (activity == "light") {
 
         // Calculate daily caloric expenditure for light exercise. (1-2 days/week)
 
-        newCalories = (calories * 1.375).toFixed(0)
-        goal(newCalories)
+        goal((calories * 1.375).toFixed(0))
 
     } else if (activity == "moderate") {
 
         // Calculate daily caloric expenditure for moderate exercise(3-5 days/week).
 
-        newCalories = (calories * 1.55).toFixed(0)
-        goal(newCalories)
+        goal((calories * 1.55).toFixed(0))
 
     } else if (activity == "heavy") {
 
         // Calculate daily caloric expenditure for heavy exercise (6-7 days/week).
 
-        newCalories = (calories * 1.725).toFixed(0)
-        goal(newCalories)
+        goal((calories * 1.725).toFixed(0))
 
     } else {
 
         // Calculate daily caloric expenditure for intense exercise (2x/day).
 
-        newCalories = (calories * 1.9).toFixed(0)
-        goal(newCalories)
+        goal((calories * 1.9).toFixed(0))
 
     }
 }
 
-// Calculate weight goals.
+// Calculate weight goals:
 
 function goal(cals) {
     
@@ -94,6 +89,6 @@ function goal(cals) {
 
     document.getElementById('heading').innerHTML = "Your caloric expenditure is: "
     document.getElementById('calorie-output').innerHTML = newCalories + " cals/day"
-    document.getElementById('message').innerHTML = "Eat " + (cals - (-500)) + " cals/day to gain weight <br> Eat " + (cals - 500) + " cals/day to lose weight <br>"
+    document.getElementById('message').innerHTML = "Eat <u>" + (cals - (-500)) + "</u> cals/day to <i>gain weight</i> <br> Eat <u>" + (cals - 500) + "</u> cals/day to <i>lose weight</i> <br>"
 
 }
