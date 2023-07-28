@@ -16,12 +16,26 @@
     <input type="radio" name="sex" value="female">Female<br>
 
     <label for="height">Height</label>
-    <input id='height' type="numbers"><br>
+    <input id='height' type="numbers" placeholder="in inches"><br>
 
     <label for="weight">Weight</label>
-    <input id='weight' type="numbers"><br>
+    <input id='weight' type="numbers" placeholder="in pounds"><br>
     
+    <label for="activity">Activity level</label>
+    <select id="activity">
+        <option value="sedentary">Sedentary</option>
+        <option value="light">Light</option>
+        <option value="moderate">Moderate</option>
+        <option value="heavy">Heavy</option>
+        <option value="intense">Intense</option>
+    </select><br>
+
     <button onclick='calculate()'>Submit</button>
+
+
+    <h4 id='heading'></h4>
+    <p id='calorie-output'></p>
+    <p id='message'></p>
 
     <script src="script.js"></script>
 </body>
