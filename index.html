@@ -15,23 +15,58 @@
     <input type="radio" name="sex" value="male" checked>Male
     <input type="radio" name="sex" value="female">Female<br>
 
-    <label for="height">Height</label>
-    <input id='height' type="numbers" placeholder="in inches"><br>
-
     <label for="weight">Weight</label>
     <input id='weight' type="numbers" placeholder="in pounds"><br>
+
+    <label for="Height">Height</label>
+    <select id="height">
+        <option value="37">4ft 1in</option>
+        <option value="38">4ft 2in</option>
+        <option value="39">4ft 3in</option>
+        <option value="40">4ft 4in</option>
+        <option value="41">4ft 5in</option>
+        <option value="42">4ft 6in</option>
+        <option value="43">4ft 7in</option>
+        <option value="44">4ft 8in</option>
+        <option value="45">4ft 9in</option>
+        <option value="46">4ft 10in</option>
+        <option value="47">4ft 11in</option>
+        <option value="48">5ft 0in</option>
+        <option value="49">5ft 1in</option>
+        <option value="50">5ft 2in</option>
+        <option value="51">5ft 3in</option>
+        <option value="52">5ft 4in</option>
+        <option value="53">5ft 5in</option>
+        <option value="54">5ft 6in</option>
+        <option value="55" selected>5ft 7in</option>
+        <option value="56">5ft 8in</option>
+        <option value="57">5ft 9in</option>
+        <option value="58">5ft 10in</option>
+        <option value="59">5ft 11in</option>
+        <option value="60">6ft 0in</option>
+        <option value="61">6ft 1in</option>
+        <option value="62">6ft 2in</option>
+        <option value="63">6ft 3in</option>
+        <option value="64">6ft 4in</option>
+        <option value="65">6ft 5in</option>
+        <option value="66">6ft 6in</option>
+        <option value="67">6ft 7in</option>
+        <option value="68">6ft 8in</option>
+        <option value="69">6ft 9in</option>
+        <option value="70">6ft 10in</option>
+        <option value="71">6ft 11in</option>
+    </select><br>
     
     <label for="activity">Activity level</label>
     <select id="activity">
-        <option value="sedentary">Sedentary</option>
-        <option value="light">Light</option>
-        <option value="moderate">Moderate</option>
-        <option value="heavy">Heavy</option>
-        <option value="intense">Intense</option>
+        <option value="sedentary">Sedentary (office job)</option>
+        <option value="light">Light (1-2 days/week)</option>
+        <option value="moderate">Moderate (3-5 days/week)</option>
+        <option value="heavy">Heavy (6-7 days/week)</option>
+        <option value="intense">Intense (2x/day)</option>
     </select><br>
 
     <button onclick='calculate()'>Submit</button>
-
 
     <h4 id='heading'></h4>
     <p id='calorie-output'></p>
