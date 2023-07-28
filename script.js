@@ -88,7 +88,7 @@ function goal(cals) {
     // Modify HTML elements in index.html
 
     document.getElementById('heading').innerHTML = "Your caloric expenditure is: "
-    document.getElementById('calorie-output').innerHTML = newCalories + " cals/day"
+    document.getElementById('calorie-output').innerHTML = cals + " cals/day"
     document.getElementById('message').innerHTML = "Eat <u>" + (cals - (-500)) + "</u> cals/day to <i>gain weight</i> <br> Eat <u>" + (cals - 500) + "</u> cals/day to <i>lose weight</i> <br>"
 
 }
