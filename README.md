@@ -5,7 +5,7 @@
 - A fitness tool used to display the user's caloric maintenance (a useful starting point for a diet).
 - Uses the Harris-Benedict equation to accurately calculate the user's total daily energy expenditure.
 - Input from the user includes: age, sex, weight, height, and activity level. (Imperial system) 
-### Frameworks
+### Technologies
 - Uses JavaScript; HTML for the front-end.
 ## What I learned:
 - The most important takeaway from this project is that I learned how to apply solution to a real-world problem. The mystification of dieting due to marketing tactics has left a majority of western society confused on where to start. This project serves as a very simple first step for someone looking to make a big lifestyle change, regardless of their age.
