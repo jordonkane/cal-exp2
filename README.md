@@ -1,6 +1,5 @@
 # Calorie Expenditure Fitness Tool 🍔
 <!-- ![image](https://github.com/jordonkane/cal-exp2/assets/55868384/9cef48fa-4f9e-44c6-b8e9-833c09214e9b) -->
-## Description
 - A fitness tool used to display the user's caloric maintenance (a useful starting point for a diet).
 - Uses the Harris-Benedict equation to accurately calculate the user's total daily energy expenditure.
 - Input from the user includes: age, sex, weight, height, and activity level. (Imperial system) 
